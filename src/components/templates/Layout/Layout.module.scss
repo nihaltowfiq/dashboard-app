@@ -1,0 +1,30 @@
+.header {
+	padding: 0.5rem 0;
+	background-color: var(--skyblue);
+}
+
+.header_content {
+	display: flex !important;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 80vw;
+	margin: 0 auto;
+
+	a {
+		text-decoration: none;
+		color: #fff;
+
+		h1 {
+			font-size: 1.5rem;
+			font-weight: 600;
+			margin: 0;
+		}
+
+		p {
+			cursor: pointer;
+			font-size: 1rem;
+			text-transform: uppercase;
+			margin: 0;
+		}
+	}
+}

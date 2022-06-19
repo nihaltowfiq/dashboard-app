@@ -1,0 +1,29 @@
+.input_group {
+	width: 100%;
+	display: block;
+	margin-bottom: 1rem;
+}
+
+.input_label {
+	display: inline-block;
+	margin-bottom: 0.25rem;
+}
+
+.input_field {
+	width: 100%;
+	padding: 0.5rem 0;
+	border: 1px solid var(--gray);
+	transition: border 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+	border-radius: 0.25rem;
+
+	&:focus {
+		outline: none;
+		border-color: var(--skyblue);
+	}
+
+	&:disabled {
+		pointer-events: none;
+		filter: none;
+		opacity: 0.5;
+	}
+}
